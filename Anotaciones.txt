@@ -1,13 +1,29 @@
+git bash here
+git init 
+git remote add origin https://github.com/hectoracosta83/repositorio1.git
+git add .
+commit -m "comentario"
+git push origin master
+
+
+Clonar
+git bash here
+git init
+git clone <repositorio>
+
+
 git config --global user.name “Fede Acosta”
 git config --global user.email "hectoracosta83@hotmail.com"
 
 git bash here en: 
 C:\Users\A308256\OneDrive - Santander Office 365\Proyectos\Practicas\FullStack\Clases\NetBean Proyects
 
+git init 
+
 Vincular repositorio local a GitHub web
 git remote add origin https://github.com/hectoracosta83/repositorio1.git
 
--> git add -> Sube los cambios a la web
+-> git add archivo -> Sube los cambios a la web
 -> git commit -m "Descripcion del cambio subido" -> Commit de los cambios
 -> git push <nombre-remoto> <nombre-de-tu-rama> -> Para cargar contenido del repositorio local a un repositorio remoto
    git push origin main (origin = original por si se clonan - main es como la primer version)
