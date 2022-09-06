@@ -1,0 +1,32 @@
+git config --global user.name “Fede Acosta”
+git config --global user.email "hectoracosta83@hotmail.com"
+
+git bash here en: 
+C:\Users\A308256\OneDrive - Santander Office 365\Proyectos\Practicas\FullStack\Clases\NetBean Proyects
+
+Vincular repositorio local a GitHub web
+git remote add origin https://github.com/hectoracosta83/repositorio1.git
+
+-> git add -> Sube los cambios a la web
+-> git commit -m "Descripcion del cambio subido" -> Commit de los cambios
+-> git push <nombre-remoto> <nombre-de-tu-rama> -> Para cargar contenido del repositorio local a un repositorio remoto
+   git push origin main (origin = original por si se clonan - main es como la primer version)
+
+
+Importar/clonar:
+- Importar desde la URL para que suba a GitHub
+- git clone <url> para que quede local
+
+Add (en local) -> commit (en local) -> push (al remoto)
+Estados de cambios en GitHub -> Modificado (con cambios sin confirmar) 
+                             -> Preparado  (Marcado para confirmar "git add")
+							 -> Confirmado (Almacenados local "git commit")
+
+Eliminar repositorio
+-> Ir al repositorio -> Settings -> Delete this repository
+
+
+- CONFIGURACIÓN INICIAL -> Para que? Que pasa si no lo hago?
+- Git Commit -> Comitea solo los cambios locales?
+- diferencia entre git add y git push
+- Como sincronizar web con local??	
